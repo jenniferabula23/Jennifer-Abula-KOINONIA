@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f2f3f5"/>
+    </linearGradient>
+    <linearGradient id="s1" x1="0" y1="0" x2="1" y2="0.7">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#f7f7f9"/>
+      <stop offset="1" stop-color="#e8e9ed"/>
+    </linearGradient>
+    <linearGradient id="s2" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eceef1"/>
+    </linearGradient>
+    <linearGradient id="s3" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4f5f7"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <path d="M1600 60 C1290 40 1040 170 970 410 C920 600 1080 770 1600 830 Z" fill="#0a0d14" opacity=".05" filter="url(#sh)" transform="translate(-18 22)"/>
+  <path d="M1600 60 C1290 40 1040 170 970 410 C920 600 1080 770 1600 830 Z" fill="url(#s1)"/>
+  <path d="M1600 300 C1420 300 1250 380 1200 520 C1270 470 1420 450 1600 470 Z" fill="url(#s3)"/>
+  <path d="M1600 540 C1370 490 1170 580 1110 720 C1060 840 1170 950 1600 1000 Z" fill="#0a0d14" opacity=".05" filter="url(#sh)" transform="translate(-12 16)"/>
+  <path d="M1600 540 C1370 490 1170 580 1110 720 C1060 840 1170 950 1600 1000 Z" fill="url(#s2)"/>
+  <path d="M0 0 C240 40 380 170 400 340 C310 260 170 220 0 240 Z" fill="#0a0d14" opacity=".04" filter="url(#sh)" transform="translate(10 16)"/>
+  <path d="M0 0 C240 40 380 170 400 340 C310 260 170 220 0 240 Z" fill="url(#s2)"/>
+</svg>
